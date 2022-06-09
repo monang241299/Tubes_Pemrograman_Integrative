@@ -1,0 +1,6 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^pengguna/?$ pengguna.php [NC,L]
+RewriteRule ^pengguna/([0-9]+)/?$ pengguna.php?id=$1 [NC,L]
+
+RewriteRule ^mobil/?$ mobil.php [NC,L]
+RewriteRule ^mobil/([0-9]+)/?$ mobil.php?id=$1 [NC,L]
